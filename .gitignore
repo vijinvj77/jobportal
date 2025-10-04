@@ -1,0 +1,21 @@
+# === Common Ignore Rules ===
+
+# macOS system files
+.DS_Store
+
+# === Java / Spring Boot ===
+jobportal-backend/target/
+jobportal-backend/.idea/
+jobportal-backend/.vscode/
+jobportal-backend/*.iml
+jobportal-backend/logs/
+jobportal-backend/.env
+
+# === Angular (frontend) ===
+jobportal-frontend/node_modules/
+jobportal-frontend/dist/
+jobportal-frontend/.angular/
+jobportal-frontend/.vscode/
+jobportal-frontend/.env
+
+
